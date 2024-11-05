@@ -259,7 +259,7 @@ namespace ImageProcessingActivity
         private void btnSubtractGS_Click(object sender, EventArgs e)
         {
             Color mygreen = Color.FromArgb(0, 0, 255);
-            int threshold = 10;
+            int threshold = 5;
             chromaKey(mygreen, threshold);
         }
     }
